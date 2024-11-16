@@ -1,0 +1,109 @@
+.peu_pagina {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.top {
+    background-color: yellowgreen;
+    height: 7vh;
+    position: fixed;
+    width: 110vw;
+    font-family: fangsong;
+    font-size: 20px;
+    z-index: 4;
+}
+
+h3 {
+    margin-top: 12px;
+}
+
+.titol1 {
+    color: white;
+}
+
+.peu_pagina button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 0%;
+    width: 30%;
+    height: 50%;
+    padding: 0;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: darkseagreen;
+}
+
+
+
+.peu_pagina button:hover {
+    background-color: white;
+}
+
+.botons {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: yellowgreen;
+}
+
+.boto2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.boto3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.llista-desplegable {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 10px;
+    list-style-type: none;
+    position: absolute;
+    width: 50%;
+    top: -73px;
+    margin-left: 90px;
+}
+
+.llista-desplegable ul {
+    padding: 0;
+    margin: 0;
+}
+
+.llista-desplegable li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.llista-desplegable li:hover {
+    background-color: #f0f0f0;
+}
+
+.contenidor-buscador {
+    position: absolute;
+    width: 100%;
+    top: -60px;
+    height: 50px;
+}
