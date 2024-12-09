@@ -4,15 +4,25 @@
     position: absolute;
     top: 7vh;
     align-items: center;
+    padding-right: 200px;
+    
 }
 
 .img1 {
     object-fit: none;
 }
 
+img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
 .pokemon-image {
     height: 100px;
 }
+
+
 .info {
     padding-left: 3.62625%;
     display: block;
@@ -97,6 +107,11 @@ h5 {
     overflow: scroll;
     height: 78vh;
     padding: 20px;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .flying {
@@ -283,4 +298,22 @@ h5 {
 input {
     height: 50px;
     width: 100%;
+}
+
+.tipus-chip.vol {
+    background-color: #3dc7ef;
+    width: 70px;
+    border-radius: 15px;
+    margin-bottom: 3px;
+}
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    cursor: pointer;
 }

@@ -68,6 +68,7 @@ h4 {
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 10px;
+    height: 70%;
 }
 
 .Plantatipus {
@@ -380,12 +381,12 @@ h4 {
     }
     
     /* Colors per als tipus de Pokémon (afegeix més segons necessitis) */
-    .focdtipus { background-color: #F08030; }
+    .foctipus { background-color: #F08030; }
     .aiguatipus { background-color: #6890F0; }
     .plantatipus { background-color: #78C850; }
     .elèctrictipus { background-color: #F8D030; }
     .verítipus {background-color: #b97fc9;}
-    
+    .voltipus {background-color: #6890F0;}
     .caracteristiques p {
         margin: 10px 0;
     }

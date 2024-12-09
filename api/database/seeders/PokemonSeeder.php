@@ -22,7 +22,7 @@ class PokemonSeeder extends Seeder
                 "atac_esp" => 65,
                 "def_esp" => 65,
                 "velocitat" => 45,
-                "descripcio" => "Bulbasaur, un Pokémon de tipuses planta/veneno. Quanta més llum rep, més augmenta la seva força i més es desenvolupa.",
+                "descripcio" => "Bulbasaur, un Pokémon de tipuses planta/verí. Quanta més llum rep, més augmenta la seva força i més es desenvolupa.",
                 "sprite" => "https://images.wikidexcdn.net/mwuploads/wikidex/1/18/latest/20230319203107/Bulbasaur_LGPE.png",
                 "sprite_shiny" => "https://images.wikidexcdn.net/mwuploads/wikidex/5/5e/latest/20200308140321/Bulbasaur_EpEc.gif",
                 "gen_id" => 1
@@ -157,9 +157,9 @@ class PokemonSeeder extends Seeder
             ["pokemon_id" => 3, "tipuses_id" => 1],
             ["pokemon_id" => 3, "tipuses_id" => 2],
             ["pokemon_id" => 4, "tipuses_id" => 3],
-            ["pokemon_id" => 5, "tipuses_id" => 4],
+            ["pokemon_id" => 5, "tipuses_id" => 3],
             ["pokemon_id" => 6, "tipuses_id" => 3],
-            ["pokemon_id" => 6, "tipuses_id" => 3],
+            ["pokemon_id" => 6, "tipuses_id" => 4],
         ]);
 
         // Habilitats
@@ -195,6 +195,12 @@ class PokemonSeeder extends Seeder
             ],
             5 => [
                 ["nom" => "Grunyit", "PPs" => 40, "Posicio" => 1, "potencia" => 0],
+                ["nom" => "Cua Foc", "PPs" => 15, "Posicio" => 2, "potencia" => 85],
+                ["nom" => "Llançaflames", "PPs" => 15, "Posicio" => 3, "potencia" => 90],
+                ["nom" => "Triturar", "PPs" => 15, "Posicio" => 4, "potencia" => 80]
+            ],
+            6 => [
+                ["nom" => "Llança drac", "PPs" => 10, "Posicio" => 1, "potencia" => 60],
                 ["nom" => "Cua Foc", "PPs" => 15, "Posicio" => 2, "potencia" => 85],
                 ["nom" => "Llançaflames", "PPs" => 15, "Posicio" => 3, "potencia" => 90],
                 ["nom" => "Triturar", "PPs" => 15, "Posicio" => 4, "potencia" => 80]
